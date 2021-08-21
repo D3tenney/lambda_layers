@@ -8,7 +8,7 @@ source venv/bin/activate
 mkdir -p python/lib/python3.8/site-packages
 
 pip install pandas -t python/lib/python3.8/site-packages/.
-pip install numpy -t python/lib/python3.8/site-packages/.
+# pip install numpy -t python/lib/python3.8/site-packages/.
 pip install pyarrow -t python/lib/python3.8/site-packages/.
 
 zip -r pandaslayer.zip ./python/ --quiet
